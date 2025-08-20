@@ -8,4 +8,8 @@ This code includes a robust Image-Based Visual Servoing (rIBVS) approach and a p
 1. Have a mobile robot that can take linear and angular velocity commands.
 2. Attach a camera
 3. Launch the robot with a camera in one of the worlds
-4. Then run the node "vector_view_model.py" to control the robot with the deep learning model, changing, of course, the topic the velocity is to be published to and what topic the camera is being published to. 
+4. Then run the node "vector_view_model.py" to control the robot with the deep learning model, changing, of course, the topic to which the velocity is published and what topic the camera is being published to. 
+
+
+### Want to use it for a new world?
+Feel free to adapt this code to a new world! Next, you can use the image labeller to process the data in the same way I did, and then use the training script, both of which are located under the "training" folder.
